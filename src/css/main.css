@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "RickMorty";
+  src: url("../fonts/get_schwifty.ttf") format("truetype")
+}
+
+
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animation-spin {
+  animation: spin 8s linear infinite;
+}
+
